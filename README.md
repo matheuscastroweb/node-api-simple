@@ -15,6 +15,7 @@
 `requireDir('./src/models');`
 
 - Crud de informações com GET, POST, PUT, DELETE
+
         async index(req, res){
             const { page = 1 } = req.query;
             const products = await Product.paginate({}, {page, limit: 10});
