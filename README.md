@@ -50,4 +50,5 @@
 3. mongoose-paginate
 4. cors
 5. require-dir
+6. -D nodemon
 
